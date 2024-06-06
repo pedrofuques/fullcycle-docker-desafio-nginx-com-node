@@ -2,7 +2,7 @@
 
 ## docker compose up
 
-# Acessar a URL: localhost/80
+# Acessar a URL: localhost/8080
 
 ## Resultado Esperado:
 
