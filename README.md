@@ -1,4 +1,4 @@
-# Executa com o comando: 
+# Executar com o comando: 
 
 ## docker compose up
 
@@ -8,5 +8,5 @@
 
 <h1>Full Cycle Rocks!</h1>
 <h2>Lista de nomes:</h2>
-<ul><li>Jake</li><li>David</li><li>Olivia</li></ul>   
+<ul><li>Jake</li></ul>   
 
