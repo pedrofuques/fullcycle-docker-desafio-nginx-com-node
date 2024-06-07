@@ -16,7 +16,8 @@ services:
       - my-network
 
   node-app:
-    build: .
+    build: .    
+    entrypoint: dockerize -wait tcp://db:3306 -timeout 30s node app/index.js
     ports:
       - "3000:3000"
     depends_on:
@@ -28,17 +29,18 @@ services:
       DB_NAME: people_db
     volumes:
       - ./app/:/usr/src/app/app
+    tty: true
     networks:
       - my-network
 
   nginx:
     build:
-      context: ./nginx
-    container_name: nginx
+      context: ./nginx    
+    container_name: nginx    
     ports:
       - "8080:80"
     depends_on:
-      - node-app
+      - node-app        
     networks:
       - my-network
 
