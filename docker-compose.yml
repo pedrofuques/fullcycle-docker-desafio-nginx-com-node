@@ -26,6 +26,8 @@ services:
       DB_USER: user
       DB_PASSWORD: password
       DB_NAME: people_db
+    volumes:
+      - ./app/:/usr/src/app/app
     networks:
       - my-network
 
