@@ -1,3 +1,8 @@
+# Last Update:
+
+## Adicionado Volume para espelhar arquivos do app (node);
+## Adicionado Dockerize para esperar o DB (MySql) e o Node (Nginx);
+
 # Executar com o comando: 
 
 ## docker compose up
