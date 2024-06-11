@@ -4,9 +4,9 @@
 
 ## Adicionado o comando para iniciar o npm install pelo entrypoint no docker-compose.
 
-### Adicionado Volume para espelhar arquivos do app (node);
+## Adicionado Volume para espelhar arquivos do app (node);
 
-### Adicionado Dockerize para esperar o DB (MySql) e o Node (Nginx);
+## Adicionado Dockerize para esperar o DB (MySql) e o Node (Nginx);
 
 # Executar com o comando:
 
