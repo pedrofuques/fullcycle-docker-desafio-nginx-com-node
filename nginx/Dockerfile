@@ -9,4 +9,4 @@ RUN apk update --no-cache \
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-CMD ["dockerize", "-wait", "tcp://node-app:3000", "-timeout", "60s", "nginx", "-g", "daemon off;"]
+CMD ["dockerize", "-wait", "tcp://node-app:3000", "-timeout", "120s", "nginx", "-g", "daemon off;"]
